@@ -1,0 +1,27 @@
+.hobbies{
+    background: var(--background-ceniza-claro);
+    padding: 0 7rem 3rem 7rem;
+    text-align: center;
+    
+}
+.hobbies__lista{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hobbies__listado{
+    width: 120px;
+    height: 130px;
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1rem;
+    text-align: left;
+
+
+}
+.hobbies__imagen{
+    width: 2rem;
+    padding-bottom: .5rem;
+}

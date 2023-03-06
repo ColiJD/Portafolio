@@ -1,5 +1,6 @@
 .sobre__contenedor{
     padding: 3rem 7rem 2rem 7rem;
+    background: var(--background-ceniza-claro);
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-between;
@@ -31,11 +32,6 @@
     color: var(--fuente-enlace);
 }
 
-.titulos{
-    font-size: 2rem;;
-    font-weight: bold;
-    padding-bottom: 2rem;
-}
 .sobre_Mi{
     background-color: var(--background-azul-claro);
     padding: 3rem 7rem 3rem 7rem;

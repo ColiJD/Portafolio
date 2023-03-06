@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 7rem 1rem 7rem;
+    background: var(--background-ceniza-claro);
 }
 .head__perfil{
     font-weight: bold;

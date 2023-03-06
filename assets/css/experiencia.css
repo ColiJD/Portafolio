@@ -1,0 +1,46 @@
+.experiencia{
+    padding: 3rem 7rem 3rem 7rem;
+    text-align: center;
+}
+.experiencia__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+    text-align: left;
+}
+.experiencia_info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.experiencia__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.experiencia__span{
+    font-family: var(--Roboto); 
+    padding: .5rem 0 1rem 0;   
+}
+.experiencia__botones{
+    font-family: var(--Roboto);
+    
+}
+.experiencia__repositorio{
+    font-size: 1.2rem;
+    padding: .5rem;
+    margin-right: 0.5rem ;
+    color: var(--background-azul);
+    background-color: var(--blanco);
+    border-color: var(--background-azul);
+    cursor: pointer;
+}
+.experiencia__demo{
+    font-size: 1.2rem;
+    padding: .5rem;
+    background-color: var(--fuente-boton);
+    border-color: var(--blanco);
+    color: var(--blanco);
+    cursor: pointer;
+}

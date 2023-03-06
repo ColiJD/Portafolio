@@ -14,7 +14,8 @@
     --planes-card-ultra: #690F8E;
     --planes-card-mega: #B00024;
 
-    --fuente-enlace: #0006FF;
+    --fuente-boton: #6078db;
+    --background-azul: #4595b8;
 
     --background-footer: #333333;
 
@@ -27,6 +28,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     
+}
+.titulos{
+    font-size: 2rem;;
+    font-weight: bold;
+    padding-bottom: 2rem;
 }
 
 
