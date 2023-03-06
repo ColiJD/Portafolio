@@ -1,0 +1,47 @@
+.sobre__contenedor{
+    padding: 3rem 7rem 2rem 7rem;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.referencia__personal{
+    text-align: justify;
+    padding-right: 2rem;
+}
+.personal__presentacion{
+    font-family: var(--Roboto);
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;  
+}
+.personal__parrafo{
+    font-size:  1.2rem;
+    padding-bottom: 1rem;
+}
+.lista__redes{
+    padding-right: 1rem;
+    text-decoration: none;
+    color:var(--fuente-ceniza-claro);
+    font-weight: bold;
+    transition: all 1s;
+}
+.lista__redes:hover{
+    text-decoration: underline;
+    color: var(--fuente-enlace);
+}
+
+.titulos{
+    font-size: 2rem;;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.sobre_Mi{
+    background-color: var(--background-azul-claro);
+    padding: 3rem 7rem 3rem 7rem;
+}
+.sobre__parrafo{
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: justify;
+}

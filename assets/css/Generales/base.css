@@ -1,0 +1,33 @@
+:root {
+    --black: #00161C;
+    --blanco: #FFFFFF;
+    --background-azul-claro: #cceaf7;
+    --background-ceniza-claro: #F7F4F4;
+    --background-ceniza-medio: #D9D9D9;
+
+    --boton-rojo: #B72E2E;
+
+    --fuente-ceniza-claro: #666666;
+    --fuente-ceniza-oscuro: #4F4C4C;
+
+    --planes-card-start: #EAF2FD;
+    --planes-card-ultra: #690F8E;
+    --planes-card-mega: #B00024;
+
+    --fuente-enlace: #0006FF;
+
+    --background-footer: #333333;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --Roboto: 'Roboto Slab', serif;
+    --lato: 'Lato', sans-serif;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+

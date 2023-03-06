@@ -1,0 +1,28 @@
+
+.head__cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem 1rem 7rem;
+}
+.head__perfil{
+    font-weight: bold;
+    display: flex;
+}
+.head__title{
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.menu__listado{
+    text-decoration: none;
+    color: var(--fuente-ceniza-claro);
+    padding-right: 1rem;
+    transition: all 1s;
+    font-size: 1rem;
+}
+.menu__listado:hover{
+    text-decoration: underline;;
+    color: var(--fuente-enlace);
+}
+
+
+
