@@ -1,0 +1,13 @@
+.footer{
+    padding: 3rem 7rem 3rem 7rem;
+    text-align: center;
+}
+.footer__texto{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--fuente-ceniza-claro);
+}
+.footer__fecha{
+    color: var(--fuente-ceniza-claro);
+}

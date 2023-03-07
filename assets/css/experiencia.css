@@ -1,4 +1,5 @@
 .experiencia{
+    background: var(--background-ceniza-claro);
     padding: 3rem 7rem 3rem 7rem;
     text-align: center;
 }
@@ -21,26 +22,26 @@
 }
 .experiencia__span{
     font-family: var(--Roboto); 
-    padding: .5rem 0 1rem 0;   
+    padding: .5rem 0 2rem 0;   
 }
 .experiencia__botones{
     font-family: var(--Roboto);
     
 }
 .experiencia__repositorio{
+    text-decoration: none;
     font-size: 1.2rem;
     padding: .5rem;
     margin-right: 0.5rem ;
     color: var(--background-azul);
-    background-color: var(--blanco);
-    border-color: var(--background-azul);
-    cursor: pointer;
+    border: var(--background-azul) 0.5px solid;
 }
 .experiencia__demo{
+    text-decoration: none;
     font-size: 1.2rem;
     padding: .5rem;
     background-color: var(--fuente-boton);
     border-color: var(--blanco);
     color: var(--blanco);
-    cursor: pointer;
+
 }
