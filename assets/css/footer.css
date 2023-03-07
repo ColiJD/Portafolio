@@ -11,3 +11,14 @@
 .footer__fecha{
     color: var(--fuente-ceniza-claro);
 }
+
+@media screen and (max-width:480px){
+    .footer{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .footer__texto{
+        font-size: 1rem;
+    }
+    
+}

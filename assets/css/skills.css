@@ -1,15 +1,17 @@
-.skill{
+.skill {
     background: var(--background-ceniza-claro);
     padding: 3rem 7rem 3rem 7rem;
     text-align: center;
-    
+
 }
-.skill__lista{
+
+.skill__lista {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.skill__listado{
+
+.skill__listado {
     width: 120px;
     height: 130px;
     background: var(--blanco);
@@ -21,7 +23,44 @@
 
 
 }
-.skill__imagen{
+
+.skill__imagen {
     width: 2rem;
     padding-bottom: .5rem;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .skill {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
+    .skill__lista {
+        flex-wrap: wrap;
+    }
+
+    .skill__listado {
+        width: 150px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skill {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .skill__lista {
+        flex-wrap: wrap;
+    }
+
+    .skill__listado {
+        width: 120px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
 }

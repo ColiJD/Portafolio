@@ -83,3 +83,33 @@ legend {
     background-color: var(--fuente-boton);
     font-size: 1.3rem;
 }
+
+
+
+@media screen and (max-width:768px){
+    .formulario{
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+    .formulario img{
+        display: none;
+    }
+    .formulario__Info{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+    .formulario{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .formulario img{
+        display: none;
+    }
+    .formulario__Info{
+        padding-left: 0;
+    }
+}
+    
+

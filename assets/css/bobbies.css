@@ -25,3 +25,37 @@
     width: 2rem;
     padding-bottom: .5rem;
 }
+
+
+
+@media screen and (max-width:768px) {
+    .hobbies{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    .hobbies__lista{
+        flex-wrap: wrap;
+    }
+    .hobbies__listado{
+        width: 150px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .hobbies{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .hobbies__lista{
+        flex-wrap: wrap;
+    }
+    .hobbies__listado{
+        width: 120px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+    
+}

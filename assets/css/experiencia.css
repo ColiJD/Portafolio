@@ -1,47 +1,112 @@
-.experiencia{
+.experiencia {
     background: var(--background-ceniza-claro);
     padding: 3rem 7rem 3rem 7rem;
     text-align: center;
 }
-.experiencia__contenedor{
+
+.experiencia__contenedor {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 3rem;
     text-align: left;
 }
-.experiencia_info{
+
+.experiencia_info {
     width: 30%;
     display: flex;
     flex-direction: column;
 
 }
-.experiencia__titulo{
+
+.experiencia__titulo {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.experiencia__span{
-    font-family: var(--Roboto); 
-    padding: .5rem 0 2rem 0;   
-}
-.experiencia__botones{
+
+.experiencia__span {
     font-family: var(--Roboto);
-    
+    padding: .5rem 0 2rem 0;
 }
-.experiencia__repositorio{
+
+.experiencia__botones {
+    font-family: var(--Roboto);
+
+}
+
+.experiencia__repositorio {
     text-decoration: none;
     font-size: 1.2rem;
     padding: .5rem;
-    margin-right: 0.5rem ;
+    margin-right: 0.5rem;
     color: var(--background-azul);
     border: var(--background-azul) 0.5px solid;
 }
-.experiencia__demo{
+
+.experiencia__demo {
     text-decoration: none;
     font-size: 1.2rem;
     padding: .5rem;
     background-color: var(--fuente-boton);
     border-color: var(--blanco);
     color: var(--blanco);
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .experiencia {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .experiencia__contenedor {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .experiencia__contenedor:nth-child(2n+1) {
+        flex-direction: column-reverse;
+    }
+
+    .experiencia__imagen {
+        width: 90%;
+    }
+
+    .experiencia_info {
+        width: 90%;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .experiencia {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .experiencia__contenedor {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .experiencia__contenedor:nth-child(2n+1) {
+        flex-direction: column-reverse;
+    }
+
+    .experiencia__imagen {
+        width: 90%;
+    }
+
+    .experiencia_info {
+        width: 90%;
+        margin-top: 1rem;
+        text-align: left;
+    }
 
 }

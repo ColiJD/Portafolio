@@ -15,11 +15,45 @@
     margin: 0.5rem;
     text-align: left;
 }
-.formacion__instituto{
+
+.formacion__instituto {
     padding: 1rem 0 .5rem 0;
     font-weight: bold;
 }
-.formacion__fechas{
-    font-family: var(--Roboto);  
+
+.formacion__fechas {
+    font-family: var(--Roboto);
 }
 
+
+
+@media screen and (max-width:768px) {
+    .formacion {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .formacion__imagen{
+        width: 70%;
+    }
+    .formacion__contenedor {
+        padding: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .formacion {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .formacion__contenido {
+        flex-direction: column;
+    }
+    .formacion__contenedor {
+        padding: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+}
