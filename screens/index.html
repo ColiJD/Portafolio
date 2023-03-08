@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/Generales/reset.css">
     <link rel="stylesheet" href="../assets/css/Generales/base.css">
-    <link rel="stylesheet" href="../assets/css/cabecera.css">
-    <link rel="stylesheet" href="../assets/css/sobre_mi.css">
-    <link rel="stylesheet" href="../assets/css/skills.css">
-    <link rel="stylesheet" href="../assets/css/bobbies.css">
-    <link rel="stylesheet" href="../assets/css/Formacion.css">
-    <link rel="stylesheet" href="../assets/css/experiencia.css">
-    <link rel="stylesheet" href="../assets/css/formulario.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/sobre_mi.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/skills.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/bobbies.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/Formacion.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/experiencia.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/formulario.css">
+    <link rel="stylesheet" href="../assets/css/portafolio/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,11 +46,11 @@
     <main>
         <section class="sobreMI" id="sobreMI">
             <div class="sobre__contenedor">
-                <img class="sobre__imagen" src="../assets/img/profile.png" alt="Foto personal">
+                <img class="sobre__imagen">
                 <div class="sobre__personal">
-                    <h2 class="personal__presentacion">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
-                    <p class="personal__parrafo">Soy formada en .... lorem ipsum sit amet consectetur y actualmente
-                        estoy
+                    <h2 class="personal__presentacion">Hola, mi nombre es Jose Daniel Colindres y construyo paginas web</h2>
+                    <p class="personal__parrafo">Soy formado en la univercidad catolica de Honduras en la carrera de ciencias 
+                        de la computacion especializado gracias asl equipo de alura,
                         participando del proyecto Oracle ONE en Alura Latam.</p>
                     <nav class="referencia__redes">
                         <ul class="referencia__lista">
@@ -66,19 +66,13 @@
             </div>
             <section class="sobre_Mi">
                 <h1 class="titulos">Sobre mi</h1>
-                <p class="sobre__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                    velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis
-                    pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia.<br>
-                    <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
-                    semper
-                    dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti.
-                    Ut
-                    semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet
-                    metus.
-                </p>
+                <p class="sobre__parrafo">Soy un joven de 22 años de tes blanca me gusta la tecnología, la creacion de aplicacioones 
+                    de escriyorio, de dispositivos mobiles, el desarrollo de paginas web, soy atento, autodidacta, responsable, 
+                    estudie la carrera de ciencias de la computacion por que me gusta el hecho de crear, de 
+                    innovar nuevas sistemas que ayuden a las personas a desarrollas sus actividades con mayor facilidad, soy entuciasta,
+                    <br><br>Citando a una gran persona que dijo <b>"Si puedes imaginarlo puedes programarlo"</b> Estoy capacitado por cursos 
+                    en udemy de base de datos, y en alura de html, css, javascript, git y react y poseo conocimiento en el area de redes por la 
+                    capacitacion de cisco.
             </section>
         </section>
         <section class="skill" id="skill">
@@ -148,13 +142,13 @@
             <h2 class="titulos">Formacion Academica</h2>
             <div class="formacion__contenido">
                 <div class="formacion__contenedor">
-                    <img src="../assets/img/ufpr_logo.png" alt="" class="formacion__imagen">
+                    <img src="../assets/img/unicah.png" alt="" class="formacion__imagen">
                     <h3 class="formacion__instituto">Analisis de Datos</h3>
                     <span class="formacion__fechas">2018-UFRP</span>
                 </div>
                 <div class="formacion__contenedor">
                     <img src="../assets/img/alura_logo.png" alt="" class="formacion__imagen">
-                    <h3 class="formacion__instituto">Diseñador Web</h3>
+                    <h3 class="formacion__instituto">Diseño Web</h3>
                     <span class="formacion__fechas">2022-Alura</span>
                 </div>
                 <div class="formacion__contenedor">
@@ -224,28 +218,31 @@
                     <legend>Quieres Contactarme? <br><br> Complete el siguiente formulario y me pondré en contacto con
                         usted lo antes posible.<br></legend>
                     <div class="formulario__input">
-                        <input name="nombre" id="name" class="input" type="text" placeholder="Nombre" required>
+                        <input name="nombre" id="name" class="input" type="text" placeholder="Nombre"
+                            pattern="[\s\S]{3,50}" required data-tipo="nombre">
                         <label class="input__label" for="name">Nombre</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario__input">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required
+                            data-tipo="email">
                         <label class="input__label" for="email">Email</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario__input">
-                        <input name="asunto" id="asunto" class="input" type="text" placeholder="Asunto" required>
-                        <label class="input__label" for="email">Asunto</label>
+                        <input name="asunto" id="asunto" class="input" type="text" placeholder="Asunto" required
+                            pattern="[\s\S]{3,50}" data-tipo="asunto">
+                        <label class="input__label" for="asunto">Asunto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario__textarea">
                         <textarea class="input__tarea input" name="mensaje" id="mensaje" cols="30" rows="10"
-                            placeholder="Mensaje" required></textarea>
+                            placeholder="Mensaje" pattern="[\s\S]{10,300}" required data-tipo="mensaje"></textarea>
                         <label for="mensaje" class="input__label">Mensaje</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <span class="input-message-error"></span>
                     </div>
                 </fieldset>
-                <button class="button__Formulario">Enviar Formulario</a>
+                <button class="button__Formulario" data-tipo-enviar>Enviar Formulario</a>
             </form>
         </section>
         <footer class="footer">
@@ -253,7 +250,7 @@
             <span class="footer__fecha">2022</span>
         </footer>
     </main>
-
+    <script src="../script/app.js" type="module"></script>
 </body>
 
 </html>

@@ -52,9 +52,32 @@ legend {
     transition: all 0.25s;
 }
 
+/**/
+.formulario__input--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.formulario__input--invalid .input {
+    border: 1px solid var(--boton-rojo);
+    border-radius: 7px;
+}
+
+.formulario__input--invalid .input__label {
+    color: var(--boton-rojo);
+}
+
 .input-message-error {
     display: none;
 }
+
+.formulario__input--invalid .input-message-error {
+    color: var(--boton-rojo);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/**/
 
 .formulario__textarea {
     position: relative;
@@ -69,7 +92,32 @@ legend {
     height: 200px;
     min-height: 3rem;
 }
-.button__Formulario{
+
+
+
+.formulario__textarea--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.formulario__textarea--invalid .input {
+    border: 1px solid var(--boton-rojo);
+}
+
+.formulario__textarea--invalid .input__label {
+    color: var(--boton-rojo);
+}
+
+.formulario__textarea .input-message-error {
+    display: block;
+    color: var(--boton-rojo);
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+
+.button__Formulario {
     font-size: 1.2rem;
     margin-top: 1rem;
     padding: 1rem;
@@ -79,37 +127,41 @@ legend {
     transition: all 1s ease-in-out;
     cursor: pointer;
 }
-.button__Formulario:hover{
+
+.button__Formulario:hover {
     background-color: var(--fuente-boton);
     font-size: 1.3rem;
 }
 
 
 
-@media screen and (max-width:768px){
-    .formulario{
+
+@media screen and (max-width:768px) {
+    .formulario {
         padding-right: 3.5rem;
         padding-left: 3.5rem;
     }
-    .formulario img{
+
+    .formulario img {
         display: none;
     }
-    .formulario__Info{
+
+    .formulario__Info {
         padding-left: 0;
     }
 }
 
-@media screen and (max-width:480px){
-    .formulario{
+@media screen and (max-width:480px) {
+    .formulario {
         padding-right: 1rem;
         padding-left: 1rem;
     }
-    .formulario img{
+
+    .formulario img {
         display: none;
     }
-    .formulario__Info{
+
+    .formulario__Info {
         padding-left: 0;
     }
 }
-    
-

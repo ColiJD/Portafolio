@@ -6,6 +6,17 @@
     justify-content: space-between;
     align-items: center;
 }
+.sobre__imagen{
+    background: url(/assets/img/perfil.jpg);
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+
+}
 
 .referencia__personal {
     text-align: justify;
@@ -22,6 +33,10 @@
 .personal__parrafo {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+}
+b{
+    font-weight: bold;
+    font-style: italic;
 }
 
 .lista__redes {
@@ -58,7 +73,7 @@
 
     }
     .sobre__imagen{
-        width: 40%;
+        height: 200px;
     }
     .personal__presentacion{
         padding-top: 2rem;
@@ -87,7 +102,7 @@
     }
 
     .sobre__imagen {
-        width: 40%;
+        width: 50%;
     }
 
     .personal__presentacion {
