@@ -8,6 +8,7 @@
 }
 .sobre__imagen{
     background: url(/assets/img/perfil.jpg);
+    display: block;
     height: 300px;
     width: 600px;
     margin: 0 auto;
