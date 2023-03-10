@@ -185,7 +185,7 @@
                     <span class="experiencia__span">Challenge Oracle
                     </span>
                     <div class="experiencia__botones">
-                        <a href="" class="experiencia__repositorio">Repositorio</a>
+                        <a href="./screens/envioCompletado.html" class="experiencia__repositorio">Repositorio</a>
                         <a href="" class="experiencia__demo">Ver demo</a>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
         </section>
         <section class="formulario" id="formulario">
             <img src="./assets/img/contact_image.png" alt="">
-            <form action="" class="formulario__Info">
+            <form action="https://formsubmit.co/colindresj9@gmail.com" method="POST" class="formulario__Info">
                 <h2 class="titulos">Contacto</h2>
                 <fieldset>
                     <legend>Quieres Contactarme? <br><br> Complete el siguiente formulario y me pondré en contacto con
@@ -248,7 +248,10 @@
                         <span class="input-message-error"></span>
                     </div>
                 </fieldset>
-                <button class="button__Formulario" data-tipo-enviar>Enviar Formulario</a>
+                <input type="submit" class="button__Formulario" value="Enviar Formulario">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+
             </form>
         </section>
         <footer class="footer">

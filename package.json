@@ -1,0 +1,20 @@
+{
+  "name": "portafoliojd",
+  "version": "1.0.0",
+  "description": "Portafolio de proyectos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColiJD/Portafolio.git"
+  },
+  "author": "Jose Colindres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColiJD/Portafolio/issues"
+
+  },
+  "homepage": "https://github.com/ColiJD/Portafolio#readme"
+}
