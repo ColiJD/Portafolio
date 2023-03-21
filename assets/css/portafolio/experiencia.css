@@ -11,6 +11,9 @@
     padding-bottom: 3rem;
     text-align: left;
 }
+.experiencia__imagen{
+    width: 60%;
+}
 
 .experiencia_info {
     width: 30%;
@@ -42,6 +45,11 @@
     color: var(--background-azul);
     border: var(--background-azul) 0.5px solid;
 }
+.experiencia__repositorio:hover{
+    background-color: var(--fuente-boton);
+    border-color: var(--blanco);
+    color: var(--blanco);
+}
 
 .experiencia__demo {
     text-decoration: none;
@@ -52,7 +60,11 @@
     color: var(--blanco);
 
 }
-
+.experiencia__demo:hover{
+    color: blue;
+    background-color: #fff;
+    border: var(--background-azul) 0.5px solid;
+}
 
 
 @media screen and (max-width:768px) {

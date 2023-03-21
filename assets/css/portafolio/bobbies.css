@@ -7,6 +7,7 @@
 .hobbies__lista{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 .hobbies__listado{
@@ -18,8 +19,14 @@
     justify-content: end;
     padding: 1rem;
     text-align: left;
+    margin-bottom: 1.5rem;
+    transition: all 0.2s ease-in;
 
 
+}
+.hobbies__listado:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }
 .hobbies__imagen{
     width: 2rem;

@@ -7,7 +7,7 @@
     align-items: center;
 }
 .sobre__imagen{
-    background: url(/assets/img/perfil.jpg);
+    background: url("../../img/perfil.jpg");
     display: block;
     height: 300px;
     width: 600px;
