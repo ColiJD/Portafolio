@@ -1,0 +1,30 @@
+.botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton_whatsapp{
+    display: flex;
+    align-items: center;
+    background-color: #075E54;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    
+}
+.bi-whatsapp{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+@media screen and (max-width:480px){
+    .botones{
+        flex-direction: column;
+    }
+    .boton_whatsapp{
+        margin-top: 2rem;
+    }
+    
+}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/portafolio/experiencia.css">
     <link rel="stylesheet" href="./assets/css/portafolio/formulario.css">
     <link rel="stylesheet" href="./assets/css/portafolio/formulario_componentes.css">
+    <link rel="stylesheet" href="./assets/css/portafolio/botones_formulario.css">
     <link rel="stylesheet" href="./assets/css/portafolio/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,12 +58,12 @@
                         participando del proyecto Oracle ONE en Alura Latam.</p>
                     <nav class="referencia__redes">
                         <ul class="referencia__lista">
-                            <il><a href="https://github.com/ColiJD?tab=repositories" target="_blank" class="lista__redes">Github<i
-                                        class="bi bi-arrow-up-right"></i></a></il>
+                            <il><a href="https://github.com/ColiJD?tab=repositories" target="_blank"
+                                    class="lista__redes">Github<i class="bi bi-arrow-up-right"></i></a></il>
                             <il><a href="https://www.linkedin.com/in/jose-colindres-55850b258" target="_blank"
                                     class="lista__redes">Linkedin<i class="bi bi-arrow-up-right"></i></a></il>
-                            <il><a href="https://www.instagram.com/jose_colindres89/" target="_blank" class="lista__redes">Instagram<i
-                                        class="bi bi-arrow-up-right"></i></a></il>
+                            <il><a href="https://www.instagram.com/jose_colindres89/" target="_blank"
+                                    class="lista__redes">Instagram<i class="bi bi-arrow-up-right"></i></a></il>
                         </ul>
                     </nav>
                 </div>
@@ -103,10 +104,9 @@
                             class="skill__imagen">
                         <h3 class="skill__titulos">React</h3>
                     </il>
-                    <il class="skill__listado"><img src="./assets/img/sql.png" alt="icono de php"
-                        class="skill__imagen">
-                    <h3 class="skill__titulos">SQL</h3>
-                </il>
+                    <il class="skill__listado"><img src="./assets/img/sql.png" alt="icono de php" class="skill__imagen">
+                        <h3 class="skill__titulos">SQL</h3>
+                    </il>
                     <il class="skill__listado"><img src="./assets/img/nodejs_icon.png" alt="icono de nodeJS"
                             class="skill__imagen">
                         <h3 class="skill__titulos">Node Js</h3>
@@ -174,8 +174,10 @@
                     <span class="experiencia__span">Proyecto para una cafeteria
                     </span>
                     <div class="experiencia__botones">
-                        <a href="https://github.com/ColiJD/LunaCafe" target="_blank" class="experiencia__repositorio ">Repositorio</a>
-                        <a href="https://colijd.github.io/LunaCafe/" target="_blank" class="experiencia__demo ">Ver demo</a>
+                        <a href="https://github.com/ColiJD/LunaCafe" target="_blank"
+                            class="experiencia__repositorio ">Repositorio</a>
+                        <a href="https://colijd.github.io/LunaCafe/" target="_blank" class="experiencia__demo ">Ver
+                            demo</a>
                     </div>
                 </div>
             </div>
@@ -185,8 +187,10 @@
                     <span class="experiencia__span">Carrito de la cafeteria
                     </span>
                     <div class="experiencia__botones">
-                        <a href="https://github.com/ColiJD/LunaCafe" target="_blank" class="experiencia__repositorio">Repositorio</a>
-                        <a href="https://colijd.github.io/LunaCafe/screen/carrito.html" class="experiencia__demo" target="_blank">Ver demo</a>
+                        <a href="https://github.com/ColiJD/LunaCafe" target="_blank"
+                            class="experiencia__repositorio">Repositorio</a>
+                        <a href="https://colijd.github.io/LunaCafe/screen/carrito.html" class="experiencia__demo"
+                            target="_blank">Ver demo</a>
                     </div>
                 </div>
                 <img src="./assets/img/CARRITO.png" alt="" class="experiencia__imagen">
@@ -198,8 +202,10 @@
                     <span class="experiencia__span">Challenge Oracle
                     </span>
                     <div class="experiencia__botones">
-                        <a href="https://github.com/ColiJD/Programa-Encriptacion-" target="_blank" class="experiencia__repositorio">Repositorio</a>
-                        <a href="https://colijd.github.io/Programa-Encriptacion-/" target="_blank" class="experiencia__demo">Ver demo</a>
+                        <a href="https://github.com/ColiJD/Programa-Encriptacion-" target="_blank"
+                            class="experiencia__repositorio">Repositorio</a>
+                        <a href="https://colijd.github.io/Programa-Encriptacion-/" target="_blank"
+                            class="experiencia__demo">Ver demo</a>
                     </div>
                 </div>
             </div>
@@ -210,7 +216,7 @@
                     </span>
                     <div class="experiencia__botones">
                         <a href="" target="_blank" class="experiencia__repositorio">Repositorio</a>
-                        <a href="" target="_blank"  class="experiencia__demo">Ver demo</a>
+                        <a href="" target="_blank" class="experiencia__demo">Ver demo</a>
                     </div>
                 </div>
                 <img src="./assets/img/forca2_print.png" alt="" class="experiencia__imagen">
@@ -248,11 +254,15 @@
                         <span class="input-message-error"></span>
                     </div>
                 </fieldset>
-                <input type="submit" class="button__Formulario" value="Enviar Formulario">
-                
-                <input type="hidden" name="_next" value="https://colijd.github.io/Portafolio/screens/envioCompletado.html">
-                <input type="hidden" name="_captcha" value="false">
+                <div class="botones">
+                    <input type="submit" class="button__Formulario" value="Enviar Formulario">
 
+                    <input type="hidden" name="_next"
+                        value="https://colijd.github.io/Portafolio/screens/envioCompletado.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <button class="boton_whatsapp" data-whatsapp><i class="bi bi-whatsapp"></i>WhatsApp </button>
+                </div>
             </form>
         </section>
         <footer class="footer">
